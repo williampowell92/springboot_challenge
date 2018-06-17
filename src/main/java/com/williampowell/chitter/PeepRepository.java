@@ -1,4 +1,6 @@
 package com.williampowell.chitter;
 
-public interface PeepRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface PeepRepository extends CrudRepository<Peep, Long> {
 }
